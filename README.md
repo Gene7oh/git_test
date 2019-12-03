@@ -1,0 +1,1 @@
+This is Gene7oh's first odin git project!
