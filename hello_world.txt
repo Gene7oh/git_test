@@ -1,0 +1,3 @@
+This is the hello world text doc.
+this will eventually log the process of the hello world php app.
+Or maybe not.
