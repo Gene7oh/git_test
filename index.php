@@ -2,15 +2,15 @@
 $text = "The first dynamic text issued by PHP" . "<br>";
 class Bot
 {
-    var $track = "Tracking" . "<br>";
-    var $found = "Have been located " . "<br>";
-    var $missing = "Unable to located " . "<br>";
+    public $track = "Tracking";
+    public $found = "Have been located ";
+    public $missing = "Unable to be located ";
 
     function bot_details(){
-        return "This app is " . $this->track . " you, so be careful. 
-        You will find you " . $this->found . " and ideally you should be " 
-        . $this->missing . "!";
-    }
+        return "This bot is capable of " . $this->track . " You, so you
+         better hope you are " . $this->missing . ". Oops! Too late " 
+         , $this->found . "<br>";
+         }
 }
 ?>
 <!DOCTYPE html>
