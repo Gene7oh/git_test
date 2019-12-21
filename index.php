@@ -8,8 +8,7 @@ class Bot
 
     function bot_details(){
         return "This bot is capable of " . $this->track . " You, so you
-         better hope you are " . $this->missing . ". Oops! Too late " 
-         , $this->found . "<br>";
+         better hope you are " . $this->missing . ". Oops! Too late You " . $this->found;
          }
 }
 ?>
